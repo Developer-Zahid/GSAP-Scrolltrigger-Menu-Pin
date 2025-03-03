@@ -1,0 +1,13 @@
+https://gsap.com/docs/v3/Plugins/ScrollToPlugin/
+
+https://gsap.com/community/forums/topic/40643-scrolltrigger-scrollto-specific-point/
+
+https://gsap.com/docs/v3/HelperFunctions/helpers/getScrollLookup/
+
+https://codepen.io/mvaneijgen/pen/gOyNeqj?editors=1010
+
+https://gsap.com/community/forums/topic/37168-scrolltrigger-pin-an-element-and-change-that-elements-content-on-scroll/
+
+https://www.youtube.com/watch?v=e6eK_drgqK8
+
+https://www.youtube.com/watch?v=CQHvWqYXI5s
