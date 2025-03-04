@@ -22,6 +22,9 @@ img {
 .section {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    min-height: 600vh;
+    align-items: start;
+    padding-block: 5rem;
 }
 
 .aside {
@@ -32,6 +35,10 @@ img {
         position: relative;
         grid-area: center;
         padding-top: 60%;
+
+        &.active {
+            outline: 10px solid red;
+        }
 
         .figure__img {
             position: absolute;
@@ -49,8 +56,15 @@ img {
 
 .menu {
     list-style-type: none;
+
+    .menu__item {
+        &.active {
+            color: red;
+        }
+    }
     
     .menu__link {
+        color: inherit;
         width: 100%;
         display: block;
         background-color: transparent;
@@ -61,5 +75,6 @@ img {
         font-size: 2rem;
         padding-block: 0.5rem;
         text-align: start;
+
     }
 }
